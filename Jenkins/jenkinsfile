@@ -1,15 +1,12 @@
 pipeline{
     agent any
+
     stages{
         stage('Om'){
-            steps{
-                sh 'echo "Om Namha Shivaya"'
-            }
+            sh 'echo "Om Namha Shivaya'
         }
         stage('Jai'){
-            steps{
-                sh 'echo "Jai Shree Hanuman"'
-            }
+            sh 'echo "Jai Shree Ram"'
         }
-    
+    }
 }
