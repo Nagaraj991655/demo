@@ -9,7 +9,7 @@ pipeline{
         }
         stage('jai'){
             steps{
-                sh 'echo "Jai Hanuman"'
+                sh 'echo "Jai Shree Hanuman"'
             }
         }
     }
