@@ -3,10 +3,14 @@ pipeline{
 
     stages{
         stage('Om'){
-            sh 'echo "Om Namha Shivaya'
+            steps{
+                sh 'echo "Om Namha Shivaya'
+            }
         }
-        stage('Jai'){
-            sh 'echo "Jai Shree Ram"'
+        stage('jai'){
+            steps{
+                sh 'echo "Jai Hanuman"'
+            }
         }
     }
 }
