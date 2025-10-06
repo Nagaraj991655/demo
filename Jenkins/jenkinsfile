@@ -2,14 +2,19 @@ pipeline{
     agent any
 
     stages{
-        stage('Om'){
+        stage('Build'){
             steps{
-                sh 'echo "Om Namha Shivaya"'
+                sh 'echo "building the image in the docker"'
             }
         }
-        stage('jai'){
+        stage('test'){
             steps{
-                sh 'echo "Jai Shree Hanuman"'
+                sh 'echo "testing the image in the docker"'
+            }
+        }
+        stage('deploy'){
+            steps{
+                sh 'echo "deploying the image in the docker"'
             }
         }
     }
